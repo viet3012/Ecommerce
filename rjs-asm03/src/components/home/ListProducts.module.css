@@ -1,0 +1,26 @@
+.list {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  text-align: center;
+  gap: 20px;
+  justify-content: center;
+  margin: 0 100px;
+}
+
+.img:hover {
+  transition: 0.2s all;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.product {
+  font-style: italic;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.price {
+  color: #999;
+}

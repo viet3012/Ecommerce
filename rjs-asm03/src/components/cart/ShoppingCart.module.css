@@ -1,0 +1,143 @@
+/*-----BANNER-----*/
+.banner {
+  height: 200px;
+  position: relative;
+  background-color: #f6f9f6;
+}
+.large {
+  top: 50%;
+  left: 10%;
+  font-size: 44px;
+  font-style: italic;
+  position: absolute;
+  letter-spacing: 2px;
+  transform: translateY(-50%);
+}
+.small {
+  top: 50%;
+  right: 10%;
+  color: silver;
+  font-size: 20px;
+  font-style: italic;
+  position: absolute;
+  transform: translateY(-50%);
+}
+
+/*-----CONTAINER-----*/
+.container {
+  display: flex;
+  margin-left: 50px;
+}
+.title {
+  margin-top: 50px;
+  margin-left: 50px;
+  font-style: italic;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+}
+
+/*-----TABLE CART-----*/
+table {
+  border-spacing: 0;
+}
+table thead > tr > th {
+  padding: 20px;
+  text-align: center;
+  background-color: #f6f9f6;
+  font-style: italic;
+}
+table tbody > tr > td {
+  padding: 10px;
+  text-align: center;
+}
+table .price {
+  font-style: italic;
+  font-size: 15px;
+  color: #999;
+}
+.name {
+  font-style: italic;
+  font-size: 18px;
+}
+.img {
+  object-fit: contain;
+  object-position: center;
+  height: 80px;
+}
+.remove {
+  cursor: pointer;
+}
+.arrow {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #f6f9f6;
+  width: 830px;
+  margin-top: 20px;
+}
+.btnshop {
+  border: none;
+}
+.btn button {
+  background-color: #f6f9f6;
+  font-style: italic;
+  cursor: pointer;
+  padding: 10px;
+}
+
+/*-----CART TOTAL-----*/
+.cart_total {
+  width: 380px;
+  height: 340px;
+  background-color: #f6f9f6;
+  padding: 30px 40px;
+  margin-left: 40px;
+}
+.cart_total button {
+  color: white;
+  background-color: #383838;
+  width: 300px;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+}
+.cart_total button:hover {
+  background-color: #7e7a7a;
+}
+.cart_total input {
+  width: 300px;
+  padding: 10px;
+  margin-top: 10px;
+}
+.cart_total h3 {
+  font-style: italic;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+}
+.cart_total p {
+  font-style: italic;
+}
+.cart_total input:focus {
+  outline: none;
+}
+.subtotal,
+.total {
+  display: flex;
+  justify-content: space-between;
+}
+.subtotal {
+  border-bottom: 1px solid black;
+}
+.subtotal p:nth-child(2) {
+  color: #999;
+}
+.total p:nth-child(2) {
+  font-size: 18px;
+}

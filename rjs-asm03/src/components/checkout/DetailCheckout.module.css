@@ -1,0 +1,103 @@
+/*-----BANNER-----*/
+.banner {
+  height: 200px;
+  position: relative;
+  background-color: #f6f9f6;
+}
+
+.large {
+  top: 50%;
+  left: 10%;
+  font-size: 40px;
+  font-style: italic;
+  position: absolute;
+  letter-spacing: 2px;
+  transform: translateY(-50%);
+}
+
+.small {
+  top: 50%;
+  right: 10%;
+  font-size: 18px;
+  font-style: italic;
+  position: absolute;
+  transform: translateY(-50%);
+}
+
+/*-----FORM-----*/
+.checkout {
+  color: silver;
+}
+.title {
+  margin-top: 50px;
+  margin-left: 50px;
+  font-style: italic;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+}
+.container {
+  display: flex;
+  margin-left: 50px;
+}
+.form label {
+  display: block;
+  padding: 10px 0;
+  font-style: italic;
+  letter-spacing: 1.2px;
+}
+.form input {
+  width: 800px;
+  height: 45px;
+  padding-left: 10px;
+}
+.form button {
+  display: block;
+  font-style: italic;
+  font-size: 18px;
+  color: white;
+  background-color: #383838;
+  border: none;
+  padding: 12px 30px;
+  margin: 25px 0;
+  cursor: pointer;
+}
+.form button:hover {
+  background-color: #7e7a7a;
+}
+
+/*-----ORDER-----*/
+.order {
+  background-color: #f6f9f6;
+  width: 400px;
+  height: fit-content;
+  margin-left: 50px;
+  padding: 20px 40px;
+}
+.order h3 {
+  font-style: italic;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-style: italic;
+}
+.product {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #999;
+  padding: 10px 0;
+  font-size: 15px;
+}
+.name {
+  font-weight: 600;
+  font-style: italic;
+}
+.price {
+  font-style: italic;
+  color: #999;
+}

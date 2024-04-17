@@ -1,0 +1,9 @@
+.title {
+  margin-left: 100px;
+  margin-top: 50px;
+  font-style: italic;
+}
+
+.title p {
+  color: #999;
+}

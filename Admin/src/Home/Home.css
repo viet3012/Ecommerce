@@ -1,0 +1,12 @@
+.breadcrumb {
+  background: #f8f9fa;
+}
+
+.breadcrumb-item {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  font-weight: 700;
+  color: #111111;
+  padding: 20px;
+}
